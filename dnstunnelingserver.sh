@@ -1,4 +1,13 @@
 #!/bin/bash
+#
+#
+#
+#
+# Incluimos en /etc/ssh/sshd_config
+# AllowTcpForwarding yes
+# GatewayPorts yes
+# TCPKeepAlive yes
+# 
 echo 
 echo "Muestra los resolver que tenemos configuracdos"
 cat /etc/resolv.conf
